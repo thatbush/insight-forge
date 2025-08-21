@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { FileText, Brain, Download, Loader2, Copy, Zap, BarChart3, Search, Filter, Eye, ChevronRight, Sparkles } from 'lucide-react';
-import { analyzeText } from './actions';
+import { analyzeText } from '../api/actions';
 import Link from 'next/link';
 
 interface AnalysisResult {
